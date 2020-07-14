@@ -1,0 +1,220 @@
+body {
+  background-color: #FFF8F3; }
+  body a {
+    color: #921B00; }
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #FFF8F3;
+  display: inline; }
+  .header img {
+    float: left;
+    text-align: left; }
+    @media only screen and (max-width: 992px) {
+      .header img {
+        display: none; } }
+  .header .tituloPrincipal {
+    font-family: "Seaweed Script", cursive;
+    text-align: left;
+    font-size: 7.25rem;
+    margin: 5rem 2.75rem 0 18rem; }
+    .header .tituloPrincipal a {
+      text-decoration: none; }
+    .header .tituloPrincipal a:hover {
+      color: #C76E58; }
+    @media only screen and (max-width: 992px) {
+      .header .tituloPrincipal {
+        margin-right: 0;
+        margin-left: 0; } }
+  .header .subtitulo {
+    color: #C76E58;
+    font-family: "Seaweed Script", cursive;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin: 2.5rem 0 2.5rem 0;
+    font-size: 3.5rem;
+    width: 100%; }
+  .header .dropdown {
+    text-align: center;
+    font-size: 10rem;
+    position: relative; }
+    .header .dropdown button {
+      color: #921B00;
+      background-color: #FFF8F3;
+      border-color: #921B00;
+      margin: auto; }
+    .header .dropdown button:hover {
+      color: #921B00;
+      background-color: #FFF8F3;
+      border-color: #921B00;
+      margin: auto; }
+    .header .dropdown ul {
+      font-family: "Merriweather", serif;
+      list-style: none;
+      font-size: 0;
+      background-color: #FFF8F3; }
+      .header .dropdown ul li a {
+        color: #C76E58;
+        text-decoration: none;
+        font-family: "Merriweather", serif;
+        list-style: none;
+        font-size: 2rem;
+        margin: 1rem; }
+      .header .dropdown ul a:hover {
+        color: #FB7E62;
+        text-decoration: underline; }
+
+.tituloPagina {
+  color: #C76E58;
+  font-family: "Seaweed Script", cursive;
+  text-align: center;
+  font-size: 3.12rem;
+  display: block;
+  margin: 2.5rem 0; }
+
+.footer {
+  height: 21.5rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  overflow: visible;
+  border-top: 0.06rem #FB7E62;
+  border-top-style: dashed;
+  margin-top: 1.25rem; }
+  .footer p {
+    color: #FB7E62;
+    font-family: "Merriweather", serif;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    white-space: pre-wrap;
+    align-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 992px) {
+      .footer p {
+        text-align: center; } }
+  .footer .iconos {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center; }
+  .footer i {
+    color: #C76E58;
+    margin: 1rem; }
+  .footer .mapa iframe {
+    margin: 1.25rem 2.5rem auto 2.5rem;
+    align-items: center; }
+
+/* Sobre Nosotros */
+.main .tituloPagina {
+  color: #C76E58;
+  font-family: "Seaweed Script", cursive;
+  text-align: center;
+  font-size: 3.12rem;
+  display: block;
+  margin: 2.5rem 0; }
+
+.main .fotoChefs {
+  margin: 0.62rem;
+  text-align: center; }
+  .main .fotoChefs img {
+    width: 25rem;
+    height: 31.25rem;
+    border-radius: 50%; }
+
+.main .chefs {
+  display: block; }
+
+.main .nombreApellido {
+  color: #C76E58;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-size: 1.75rem;
+  padding: 0 1.25rem; }
+
+.main .descripcionChef {
+  color: #FB7E62;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 1.87rem;
+  margin: 0 6.25rem; }
+
+/* Menu */
+.container .producto {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  text-align: center;
+  margin: 3.50rem 3.90rem 3.50rem 3.90rem; }
+  .container .producto img {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center; }
+  .container .producto .tituloProducto {
+    color: #C76E58;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1.25rem 0 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline; }
+
+.container .producto:hover {
+  transform: scale(1.3, 1.3); }
+
+/* Blog */
+.articulo {
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem; }
+  .articulo .tituloContenido {
+    color: #C76E58;
+    font-family: "Merriweather", serif;
+    text-align: left;
+    font-size: 2.5rem;
+    padding: 0 1.25rem; }
+  .articulo img {
+    text-align: center; }
+  .articulo .textoBlog {
+    color: #FB7E62;
+    font-family: "Merriweather", serif;
+    text-align: justify;
+    font-size: 1.25rem;
+    padding: 0 1.87rem; }
+
+/* Contacto */
+.textoContacto {
+  color: #FB7E62;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-size: 1.50rem;
+  display: block;
+  margin-right: 0;
+  margin-left: 0; }
+
+.container .form-horizontal {
+  padding: 2.5rem;
+  border: 0.06rem #C76E58;
+  border-style: dashed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .container .form-horizontal .form-group {
+    color: #C76E58;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start; }
